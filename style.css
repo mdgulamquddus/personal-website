@@ -1,0 +1,143 @@
+*,::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h1{
+    font-size: 50px;    
+}
+
+h2{
+    font-size: 40px;    
+}
+
+h4{
+    padding-top: 40px;
+}
+h5{
+    padding: 40px;
+    font-size: 15px;
+    color: palegreen;
+}
+p{
+    color: gray;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+    
+}
+.hello{
+    padding-top: 130px;    
+}
+.highlight{
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.latest{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;    
+    background-image: linear-gradient(to right, blueviolet, violet);
+}
+
+.half-width{    
+    width: 43%;
+    margin-left: 5%;
+    padding-left: 2%;    
+    float: left;
+
+}
+.half-width img{
+    width: 100%;    
+}
+
+.my-work{
+    padding-top: 150px;
+}
+
+.row{
+    width: 86%;   
+    margin-left: 5%;
+    padding-left: 2%;   
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-1-of-3{
+    width: 32%;        
+    float: left;    
+}
+.col-1-of-3:not(:last-child){
+    margin-right: 2%;
+}
+.col-1-of-3 img{
+    width: 100%;
+}
+.client-section{
+    height: 300px;
+    padding-bottom: 50px;
+}
+.client-section h2{
+    text-align: center;
+    display: block;
+}
+.client{
+    text-align: center;
+    margin: auto 490px;
+    padding-top: 20px;
+}
+
+.client-1{
+    font-size: 12px;
+    color: gray;
+}
+
+.message-section{
+    margin-left: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.message-box{
+    text-align: center;
+    width: 500px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, blueviolet, violet);
+
+}
+
+.message-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.footer-area{
+    text-align: center;
+    font-size: 12px;
+}
